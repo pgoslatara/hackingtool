@@ -19,8 +19,8 @@ jobs:
           - "17\n1\n1\n"  # Install, run, uninstall, press ENTER to continue
           - "99"  # Install, run, quit
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: 3.x
           cache: 'pip'
